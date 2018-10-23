@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Tiny NodeJS Web Server",
+  "main": "build/index.js",
+  "repository": "git@github.com:NieHang/staticServer.git",
+  "author": "聂航",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+      "lint": "eslint .",
+      "fix": "eslint --fix ."
+  },
+  "pre-commit": [
+    "fix",
+    "lint"
+  ],
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.7.0",
+    "pre-commit": "^1.2.2"
+  }
+}
