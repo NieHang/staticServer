@@ -7,7 +7,6 @@
   "author": "聂航",
   "license": "MIT",
   "private": false,
-  "main": "src/app.js",
   "bin": {
       "staticServer": "bin/staticServer"
   },
